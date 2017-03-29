@@ -3,26 +3,79 @@
 <head>
 	<meta charset="UTF-8">
 	<title>iBlog</title>
-	<link rel="shortcut icon" type="image/x-icon" href="image/x-icon.png">
 	<link rel="stylesheet" href="css/iBlog.css">
 </head>
 <body>
-	<div class="iBlog">
-		<div class="iBlog-nav-wrap">
-			<ul class="iBlog-nav">
-				<a class="thisWeb" href="">iBlog</a>
-				<a href="">Project</a>
-				<a href="">Demo</a>
-				<a href="">Note</a>
-				<a href="">WarcraftIII</a>
-				<a href="">More</a>
+	<div class="wrap">
+		<!-- navigation -->
+		<div class="nav" id="nav">
+			<ul class="navWrap">
+				<a href="">首页</a>
+				<a href="">关于我</a>
+				<a href="">项目</a>
+				<a href="">idea</a>
+				<a href="">demo</a>
+				<a href=""></a>
 			</ul>
 		</div>
-		<div class="content">
-			<ul class="cont-right">
-				
-			</ul>
+		<!-- main show -->
+		<div class="main-show">
+			<div class="container">
+				<div class="wrapper" id="wrapper">
+					<a class="slide"><img src="image/1.jpg"></a>
+					<a class="slide"><img src="image/2.jpg"></a>
+				</div>
+			</div>
+			<div class="show-prev show-btn"><span></span></div>
+			<div class="show-next show-btn"><span></span></div>
 		</div>
+		<!-- about me -->
+		<div class="about" id="about">
+			<p class="about-title">床边故事</p>
+			<p class="about-title-s">All about me</p>
+            <div class="about-cont">
+                <div class="about-btn about-prev" id="about-prev"><span></span></div>
+                <div class="about-container">
+                    <ul class="about-wrapper">
+                        <a class="about-slide">
+                            <img src="image/1.png">
+                            <p class="about-slide-title">春眠不觉晓</p>
+                            <p class="about-slide-cont">时间总是不够的，又何止是春天</p>
+                        </a>
+                        <a class="about-slide">
+                            <img src="image/2.png">
+                            <p class="about-slide-title">处处闻啼鸟</p>
+                            <p class="about-slide-cont">当然还要虫子叫，蛙叫，隔壁孩子的哭叫声......</p>
+                        </a>
+                        <a class="about-slide">
+                            <img src="image/3.png">
+                            <p class="about-slide-title">夜来风雨声</p>
+                            <p class="about-slide-cont">下雨不算什么，衣服、袜子怎么都晒不干那叫一个惨</p>
+                        </a>
+                        <a class="about-slide">
+                            <img src="image/4.png">
+                            <p class="about-slide-title">花落知多少</p>
+                            <p class="about-slide-cont">花自飘零水自流...</p>
+                        </a>
+                    </ul>
+                </div>
+                <div class="about-btn about-next" id="about-next"><span></span></div>
+            </div>
+		</div>
+		<!-- idea -->
+		<div class="idea" id="idea">
+			<div class="idea-wrapper">
+
+            </div>
+		</div>
+		<!-- project -->
+		<div class="project">
+			
+		</div>
+		<!-- contact -->
+		<div class="contact"></div>
 	</div>
+	<script src="js/jquery-3.2.0.min.js"></script>
+	<script src="js/iBlog.js"></script>
 </body>
 </html>
