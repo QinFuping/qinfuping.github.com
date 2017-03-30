@@ -89,7 +89,7 @@ a{
 	border-radius: 50%;
 	overflow: hidden;
 	cursor: pointer;
-	background-image: url('../image/arrow.png');
+	background-image: url('http://bxu2442380019.my3w.com/image/arrow.png');
 	background-repeat: no-repeat;
 	background-size: 60px;
 	z-index: 1;
@@ -160,7 +160,7 @@ a{
     display: inline-block;
     width: 30px;
     height: 30px;
-    background-image: url("../image/arrow.png");
+    background-image: url("http://bxu2442380019.my3w.com/image/arrow.png");
     background-repeat: no-repeat;
     background-size: 60px;
     background-position-y: 1px;
@@ -210,7 +210,7 @@ a{
 }
 .idea{
     height: 700px;
-    background: url("../image/123.jpg") center no-repeat fixed;
+    background: url("http://bxu2442380019.my3w.com/image/123.jpg") center no-repeat fixed;
 	background-size: cover;
 }
 .idea-wrapper{
